@@ -1,0 +1,1 @@
+This is a workshop conducted by the APU GDSC club. THis system is a attendance system that uses facial recogntion

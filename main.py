@@ -108,7 +108,7 @@ while True:
 
                 # Retrieve student image
                 blob = bucket.get_blob(f'image{id}.png')
-                array = np.frombuffer(blob.download_as_string(), np.uints)
+                array = np.frombuffer(blob.download_as_string(), np.uint8)
                 studentimg = cv2.imdecode(array, cv2.COLOR_BGR2RGB)
 
                 # Update attendance record and data
